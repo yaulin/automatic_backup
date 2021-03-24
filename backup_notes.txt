@@ -1,0 +1,8 @@
+run cron task every minute:
+to edit crontab file crontab -e
+add this line:
+
+* * * * * ~/shell_scripts/backup_03.sh
+
+
+
